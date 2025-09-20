@@ -1,0 +1,12 @@
+C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\bin\Debug\net9.0\ClinicaSaude.Shared.deps.json
+C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\bin\Debug\net9.0\ClinicaSaude.Shared.dll
+C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\bin\Debug\net9.0\ClinicaSaude.Shared.pdb
+C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\obj\Debug\net9.0\ClinicaSaude.Shared.csproj.AssemblyReference.cache
+C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\obj\Debug\net9.0\ClinicaSaude.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\obj\Debug\net9.0\ClinicaSaude.Shared.AssemblyInfoInputs.cache
+C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\obj\Debug\net9.0\ClinicaSaude.Shared.AssemblyInfo.cs
+C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\obj\Debug\net9.0\ClinicaSaude.Shared.csproj.CoreCompileInputs.cache
+C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\obj\Debug\net9.0\ClinicaSaude.Shared.dll
+C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\obj\Debug\net9.0\refint\ClinicaSaude.Shared.dll
+C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\obj\Debug\net9.0\ClinicaSaude.Shared.pdb
+C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\obj\Debug\net9.0\ref\ClinicaSaude.Shared.dll

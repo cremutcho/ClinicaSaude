@@ -1,0 +1,36 @@
+@model IEnumerable<ClinicaSaude.Shared.Models.Paciente>
+
+@{
+    ViewData["Title"] = "Pacientes";
+}
+
+<h2>Pacientes</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Novo Paciente</a>
+</p>
+
+<table class="table table-striped table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>Nome</th>
+            <th>CPF</th>
+            <th>Telefone</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Nome</td>
+                <td>@item.CPF</td>
+                <td>@item.Telefone</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.PacienteId" class="btn btn-primary btn-sm">Editar</a>
+                    <a asp-action="Delete" asp-route-id="@item.PacienteId" class="btn btn-danger btn-sm">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
