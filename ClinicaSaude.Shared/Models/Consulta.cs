@@ -1,7 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
-using ClinicaSaude.Shared.Models; // necessário se houver referências internas
-using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ClinicaSaude.Shared.Models
 {
@@ -11,16 +10,17 @@ namespace ClinicaSaude.Shared.Models
         public int ConsultaId { get; set; }
 
         [Required]
-        public required string Especialidade { get; set; } // obrigatório
+        [StringLength(200)]
+        [Column("Especialidade")] // corresponde à coluna do banco
+        public string Descricao { get; set; } = string.Empty;
 
         [Required]
-        public DateTime DataHora { get; set; }
+        [Column("DataHora")] // corresponde à coluna do banco
+        public DateTime Data { get; set; }
 
-        // Chave estrangeira
         [Required]
         public int PacienteId { get; set; }
 
-        // Navegação
-        public required Paciente Paciente { get; set; }
+        public Paciente? Paciente { get; set; }
     }
 }
