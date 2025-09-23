@@ -10,25 +10,22 @@
     <a asp-action="Create" class="btn btn-primary">Nova Consulta</a>
 </p>
 
-<table class="table">
+<table class="table table-striped">
     <thead>
         <tr>
-            <th>Especialidade</th>
             <th>Data e Hora</th>
             <th>Paciente</th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model)
-{
+@foreach (var item in Model) {
         <tr>
-            <td>@item.Descricao</td>
             <td>@item.Data</td>
             <td>@item.Paciente?.Nome</td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.ConsultaId" class="btn btn-warning">Editar</a>
-                <a asp-action="Delete" asp-route-id="@item.ConsultaId" class="btn btn-danger">Excluir</a>
+                <a asp-action="Edit" asp-route-id="@item.ConsultaId" class="btn btn-sm btn-warning">Editar</a> |
+                <a asp-action="Delete" asp-route-id="@item.ConsultaId" class="btn btn-sm btn-danger">Excluir</a>
             </td>
         </tr>
 }

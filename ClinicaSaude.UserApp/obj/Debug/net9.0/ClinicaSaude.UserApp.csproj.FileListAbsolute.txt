@@ -10,6 +10,9 @@ C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\bin\Debug\net9.0\ClinicaSaude.Us
 C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\bin\Debug\net9.0\Azure.Core.dll
 C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\bin\Debug\net9.0\Azure.Identity.dll
 C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\bin\Debug\net9.0\Humanizer.dll
+C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\bin\Debug\net9.0\Microsoft.Build.Locator.dll
 C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
@@ -30,6 +33,8 @@ C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\bin\Debug\net9.0\Microsoft.Exten
 C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
 C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
@@ -150,6 +155,7 @@ C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\obj\Debug\net9.0\ClinicaSaude.Us
 C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\obj\Debug\net9.0\ClinicaSaude.UserApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\obj\Debug\net9.0\ClinicaSaude.UserApp.RazorAssemblyInfo.cache
 C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\obj\Debug\net9.0\ClinicaSaude.UserApp.RazorAssemblyInfo.cs
+C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\obj\Debug\net9.0\ClinicaSaude.UserApp.sourcelink.json
 C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\User\ClinicaSaude\ClinicaSaude.UserApp\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json

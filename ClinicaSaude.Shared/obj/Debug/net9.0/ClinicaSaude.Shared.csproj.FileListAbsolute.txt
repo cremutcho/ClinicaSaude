@@ -6,6 +6,7 @@ C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\obj\Debug\net9.0\ClinicaSaude.Sha
 C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\obj\Debug\net9.0\ClinicaSaude.Shared.AssemblyInfoInputs.cache
 C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\obj\Debug\net9.0\ClinicaSaude.Shared.AssemblyInfo.cs
 C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\obj\Debug\net9.0\ClinicaSaude.Shared.csproj.CoreCompileInputs.cache
+C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\obj\Debug\net9.0\ClinicaSaude.Shared.sourcelink.json
 C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\obj\Debug\net9.0\ClinicaSaude.Shared.dll
 C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\obj\Debug\net9.0\refint\ClinicaSaude.Shared.dll
 C:\Users\User\ClinicaSaude\ClinicaSaude.Shared\obj\Debug\net9.0\ClinicaSaude.Shared.pdb

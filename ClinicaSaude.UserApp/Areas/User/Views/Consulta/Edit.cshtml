@@ -1,0 +1,25 @@
+@model ClinicaSaude.Shared.Models.Consulta
+
+@{
+    ViewData["Title"] = "Editar Consulta";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="ConsultaId" />
+    <div class="form-group mb-2">
+        <label asp-for="Data"></label>
+        <input asp-for="Data" class="form-control" type="date" />
+    </div>
+    <div class="form-group mb-2">
+        <label asp-for="Hora"></label>
+        <input asp-for="Hora" class="form-control" type="time" />
+    </div>
+    <div class="form-group mb-2">
+        <label asp-for="Descricao"></label>
+        <input asp-for="Descricao" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

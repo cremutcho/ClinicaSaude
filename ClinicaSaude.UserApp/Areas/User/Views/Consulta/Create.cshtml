@@ -1,0 +1,25 @@
+@model ClinicaSaude.Shared.Models.Consulta
+
+@{
+    ViewData["Title"] = "Agendar Nova Consulta";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@Html.ValidationSummary(true, "", new { @class = "alert alert-danger" })
+
+<form asp-action="Create" method="post">
+    @Html.AntiForgeryToken() <!-- <-- ESSENCIAL -->
+
+    <div class="mb-3">
+        <label asp-for="Data" class="form-label"></label>
+        <input asp-for="Data" class="form-control" type="datetime-local" value="@Model.Data.ToString("yyyy-MM-ddTHH:mm")" step="1" />
+        <span asp-validation-for="Data" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Agendar</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
